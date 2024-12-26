@@ -1,0 +1,28 @@
+**Random Password Generator**  
+
+This project is a **Random Password Generator** built using **Django**. The application allows users to generate secure and random passwords based on a specified length.  
+
+### Features:  
+1. **Customizable Length**: Users can specify the desired length of the password.  
+2. **Secure and Randomized**: The generator uses a mix of uppercase and lowercase letters, numbers, and special characters to ensure strong passwords.  
+3. **Simple and Efficient**: The program is easy to use and generates passwords instantly.  
+
+### How It Works:  
+1. The user inputs the desired password length.  
+2. The application uses Python's `random` module to select a random set of characters from a predefined pool containing:  
+   - Uppercase letters  
+   - Lowercase letters  
+   - Numbers  
+   - Special characters  
+
+3. A password is generated and displayed to the user.  
+
+### Example:  
+- Input: `12`  
+- Output: `Your Password is: aB3!fG@1$kM2`  
+
+### Getting Started:  
+1. Clone or download the project repository.  
+2. Set up the Django environment.  
+3. Run the server and access the password generator through the web interface.  
+
